@@ -13,3 +13,32 @@
   * Lombok
   * Spring Boot DevTools
   * MySQL Driver
+
+---
+
+## application.properties
+
+```
+server.port=80
+```
+
+---
+
+## Package
+
+* com.example.demo
+  * DemoApplication.java
+* com.example.demo.controller
+  * TodoController.java
+* com.example.demo.service
+  * TodoService.java
+* com.example.demo.persistance
+  * TodoRepository.java
+* com.example.demo.dto
+  * TodoDTO.java
+  * ResponseDTO.java
+* com.example.demo.model
+  * TodoEntity.java
+
+---
+
